@@ -1,5 +1,5 @@
 ﻿using System;
-
+using PokeConf.App.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,9 +13,10 @@ namespace PokeConf.App
             InitializeComponent();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
+                MainPage = new PokedexPage();
             else
-                MainPage = new NavigationPage(new MainPage());
+                MainPage = new NavigationPage(new PokedexPage());
+            
         }
     }
 }
