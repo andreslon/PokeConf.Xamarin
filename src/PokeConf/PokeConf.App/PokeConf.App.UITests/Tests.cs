@@ -30,6 +30,19 @@ namespace PokeConf.App.UITests
         {
             app.Screenshot("First screen.");
 
-        }
+        } 
+        [Test]
+        public void PokedexList()
+        {
+            app.WaitForElement(x => x.Text("pikachu"));
+            app.DoubleTap(x => x.Id("search_src_text"));
+            app.Screenshot("Double tapped on view with class: SearchView$SearchAutoComplete with id: search_src_text");
+            app.EnterText(x => x.Id("search_src_text"), "pika");
+            app.DismissKeyboard();
+            app.Tap(x => x.Text("pikachu"));
+            app.Screenshot("Tapped on view with class: FormsTextView with text: pikachu");
+            app.Back();
+            app.Screenshot("Tapped on view with class: AppCompatImageButtonBack");
+        } 
     }
 }
