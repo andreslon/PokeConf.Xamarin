@@ -17,14 +17,7 @@ namespace PokeConf.App
         {
             get { return isBusy; }
             set { SetProperty(ref isBusy, value); }
-        }
-
-        string title = string.Empty;
-        public string Title
-        {
-            get { return title; }
-            set { SetProperty(ref title, value); }
-        }
+        } 
 
         protected bool SetProperty<T>(ref T backingStore, T value,
             [CallerMemberName]string propertyName = "",

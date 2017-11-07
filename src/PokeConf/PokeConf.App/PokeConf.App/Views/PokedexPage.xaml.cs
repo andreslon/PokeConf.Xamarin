@@ -17,16 +17,16 @@ namespace PokeConf.App.Views
             BindingContext = viewModel = new PokedexViewModel();
             this.ItemsListView.ItemAppearing += (s, e) =>
             {
-                var item = (Pokemon)e.Item;
-                if (item.name == viewModel?.Items?.Last().name)
-                    if (viewModel.Items.Count > 0)
-                        viewModel.LoadItemsCommand.Execute(null);
+                //var item = (Pokemon)e.Item;
+                //if (item.name == viewModel?.Items?.Last().name)
+                    //if (viewModel.Items.Count > 0)
+                        //viewModel.LoadItemsCommand.Execute(null);
             };
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
+            var item = args.SelectedItem as Pokemon;
             if (item == null)
                 return;
 

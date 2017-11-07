@@ -10,7 +10,6 @@
             <Color x:Key="Accent">#01A8DD</Color>
              <Color x:Key="ContentBackground">#222222</Color> 
             <Color x:Key="BorderBackground">#DEDEDE</Color>
-
             <Color x:Key="WhiteColor">#DEDEDE</Color>
 
 

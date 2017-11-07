@@ -1,13 +1,14 @@
 ﻿using System;
+using PokeConf.App.Models;
 
 namespace PokeConf.App
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Item Item { get; set; }
-        public ItemDetailViewModel(Item item = null)
+        public Pokemon Item { get; set; }
+        public ItemDetailViewModel(Pokemon item = null)
         {
-            Title = item?.Text;
+            
             Item = item;
         }
     }

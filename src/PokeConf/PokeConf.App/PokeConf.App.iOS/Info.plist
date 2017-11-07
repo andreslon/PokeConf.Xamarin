@@ -5,9 +5,9 @@
 	<key>CFBundleDisplayName</key>
 	<string>PokeConf.App.iOS</string>
 	<key>CFBundleName</key>
-	<string>PokeConf.App.iOS</string>
+	<string>PokeConf</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.PokeConf.App</string>
+	<string>com.PokeConf.App</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -44,5 +44,7 @@
 	<false/>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>
 </plist>

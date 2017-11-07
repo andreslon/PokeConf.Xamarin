@@ -7,6 +7,7 @@ namespace PokeConf.App.Models
     {
         public string url { get; set; }
         public string name { get; set; }
+        public string image { get; set; }
 
         public bool is_battle_only { get; set; }
         public Sprites sprites { get; set; }
@@ -20,7 +21,4 @@ namespace PokeConf.App.Models
         public string form_name { get; set; }
         public int order { get; set; } 
     }
-
-
-
 }
