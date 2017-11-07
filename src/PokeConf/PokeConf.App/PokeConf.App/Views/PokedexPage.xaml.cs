@@ -1,19 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
+using PokeConf.App.Models;
 using Xamarin.Forms;
 
 namespace PokeConf.App.Views
 {
     public partial class PokedexPage : ContentPage
-    { 
-        ItemsViewModel viewModel;
+    {
+        PokedexViewModel viewModel;
 
         public PokedexPage()
         {
             InitializeComponent();
-
-            BindingContext = viewModel = new ItemsViewModel();
+            NavigationPage.SetHasNavigationBar(this, false);
+            BindingContext = viewModel = new PokedexViewModel();
+            this.ItemsListView.ItemAppearing += (s, e) =>
+            {
+                var item = (Pokemon)e.Item;
+                if (item.name == viewModel?.Items?.Last().name)
+                    if (viewModel.Items.Count > 0)
+                        viewModel.LoadItemsCommand.Execute(null);
+            };
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
@@ -22,17 +30,11 @@ namespace PokeConf.App.Views
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            await Navigation.PushAsync(new PokemonPage(new ItemDetailViewModel(item)));
 
             // Manually deselect item
             ItemsListView.SelectedItem = null;
         }
-
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewItemPage());
-        }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();

@@ -6,10 +6,13 @@ using Xamarin.Forms;
 namespace PokeConf.App.Views
 {
     public partial class PokemonPage : ContentPage
-    {
-        public PokemonPage()
+    { 
+        ItemDetailViewModel viewModel; 
+        public PokemonPage(ItemDetailViewModel viewModel)
         {
             InitializeComponent();
+
+            BindingContext = this.viewModel = viewModel;
         }
     }
 }

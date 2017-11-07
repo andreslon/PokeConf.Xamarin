@@ -12,8 +12,12 @@ namespace PokeConf.App
         {
             InitializeComponent();
 
-            MainPage = new PokedexPage();
-            
+            if (Device.RuntimePlatform == Device.iOS)
+                MainPage = new PokedexPage();
+            else 
+                MainPage = new NavigationPage(new PokedexPage()); 
+           
+
         }
     }
 }

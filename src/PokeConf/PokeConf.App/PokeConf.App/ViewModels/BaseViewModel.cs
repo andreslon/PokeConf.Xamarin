@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
+using PokeConf.App.Models;
+using PokeConf.App.Services;
 using Xamarin.Forms;
 
 namespace PokeConf.App
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public IPokemonStore<Pokemon> DataStore => DependencyService.Get<IPokemonStore<Pokemon>>() ?? new PokemonStore();
 
         bool isBusy = false;
         public bool IsBusy

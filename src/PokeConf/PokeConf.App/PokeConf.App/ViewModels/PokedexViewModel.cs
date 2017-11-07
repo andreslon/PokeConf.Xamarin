@@ -2,28 +2,21 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-
+using PokeConf.App.Models;
 using Xamarin.Forms;
 
 namespace PokeConf.App
 {
-    public class ItemsViewModel : BaseViewModel
+    public class PokedexViewModel : BaseViewModel
     {
-        public ObservableCollection<Item> Items { get; set; }
+        public ObservableCollection<Pokemon> Items { get; set; }
         public Command LoadItemsCommand { get; set; }
 
-        public ItemsViewModel()
+        public PokedexViewModel()
         {
-            Title = "Browse";
-            Items = new ObservableCollection<Item>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
-
-            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
-            {
-                var _item = item as Item;
-                Items.Add(_item);
-                await DataStore.AddItemAsync(_item);
-            });
+            Title = "Pokedex";
+            Items = new ObservableCollection<Pokemon>();
+            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand()); 
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -35,7 +28,7 @@ namespace PokeConf.App
 
             try
             {
-                Items.Clear();
+                //Items.Clear();
                 var items = await DataStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
