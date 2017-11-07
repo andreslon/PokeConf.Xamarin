@@ -7,8 +7,8 @@ namespace PokeConf.App.Views
 {
     public partial class PokemonPage : ContentPage
     { 
-        ItemDetailViewModel viewModel; 
-        public PokemonPage(ItemDetailViewModel viewModel)
+        PokemonViewModel viewModel; 
+        public PokemonPage(PokemonViewModel viewModel)
         {
             InitializeComponent();
 

@@ -29,6 +29,7 @@ namespace PokeConf.App.UITests
         public void AppLaunches()
         {
             app.Screenshot("First screen.");
+
         }
     }
 }

@@ -15,7 +15,7 @@ namespace PokeConf.App.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             BindingContext = viewModel = new PokedexViewModel();
-            this.ItemsListView.ItemAppearing += (s, e) =>
+            this.PokemonsListView.ItemAppearing += (s, e) =>
             {
                 //var item = (Pokemon)e.Item;
                 //if (item.name == viewModel?.Items?.Last().name)
@@ -24,22 +24,24 @@ namespace PokeConf.App.Views
             };
         }
 
-        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
+        async void OnPokemonsSelected(object sender, SelectedItemChangedEventArgs args)
         {
             var item = args.SelectedItem as Pokemon;
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new PokemonPage(new ItemDetailViewModel(item)));
+            var pokemon =await viewModel.LoadPokemon(item.url);
+
+            await Navigation.PushAsync(new PokemonPage(new PokemonViewModel(pokemon)));
 
             // Manually deselect item
-            ItemsListView.SelectedItem = null;
+            PokemonsListView.SelectedItem = null;
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
+            if (viewModel.Pokemons.Count == 0)
                 viewModel.LoadItemsCommand.Execute(null);
         }
     }

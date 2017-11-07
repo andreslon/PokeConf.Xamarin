@@ -21,7 +21,7 @@ namespace PokeConf.App.Services
             client.MaxResponseContentBufferSize = 256000;
             items = new List<Pokemon>();
         }
-        public async Task<Pokemon> GetItemAsync(string url)
+        public async Task<Pokemon> GetPokemonAsync(string url)
         {
             var RestUrl = $"{url}";
             var uri = new Uri(string.Format(RestUrl, string.Empty));
@@ -35,7 +35,7 @@ namespace PokeConf.App.Services
             return null;
         }
 
-        public async Task<IEnumerable<Pokemon>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Pokemon>> GetPokemonsAsync()
         {
             if (!string.IsNullOrWhiteSpace(apiUri))
             {

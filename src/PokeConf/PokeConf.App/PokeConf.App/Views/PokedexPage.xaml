@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PokeConf.App.Views.PokedexPage">
     <ContentPage.Content>
         <StackLayout Spacing="0">
-            <SearchBar HeightRequest="50" BackgroundColor="{StaticResource SearchBarBackgroundColor}" TextColor="{StaticResource PrimaryDark}" CancelButtonColor="{StaticResource WhiteColor}" />
+            <SearchBar 
+            Text="{Binding SearchText}" 
+            SearchCommand="{Binding SearchCommand}"
+            Placeholder="Buscar pokémon"
+            AutomationId="searchBar"
+            HeightRequest="50" BackgroundColor="{StaticResource SearchBarBackgroundColor}" TextColor="{StaticResource PrimaryDark}" CancelButtonColor="{StaticResource WhiteColor}" />
             <Grid>
                 <Image Source="background.jpg" Aspect="Fill" />
                 <Frame Margin="35,140,35,50" Padding="0" CornerRadius="5" BackgroundColor="{StaticResource BorderBackground}">
@@ -12,10 +17,10 @@
                             <Image WidthRequest="18" HeightRequest="18" Source="circle"></Image>
                         </StackLayout>
                         <ListView   Margin="30,30,30,50" BackgroundColor="{StaticResource ContentBackground}" 
-                            SeparatorVisibility="None" x:Name="ItemsListView" ItemsSource="{Binding Items}" 
+                            SeparatorVisibility="None" x:Name="PokemonsListView" ItemsSource="{Binding PokemonsList}" 
                             VerticalOptions="FillAndExpand" HasUnevenRows="true"  
                             IsRefreshing="{Binding IsBusy, Mode=OneWay}" 
-                            CachingStrategy="RecycleElement" ItemSelected="OnItemSelected">
+                            CachingStrategy="RecycleElement" ItemSelected="OnPokemonsSelected">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <ViewCell>
@@ -30,9 +35,7 @@
                         <Image WidthRequest="30" HeightRequest="30" Source="circle" HorizontalOptions="Start" Margin="30,0,0,10" VerticalOptions="End"></Image>
                         <Button VerticalOptions="End" HorizontalOptions="End" HeightRequest="20" Text="share"  Margin="0,0,30,2" TextColor="{StaticResource WhiteColor}" BackgroundColor="{StaticResource ContentBackground}" Command="{Binding OpenWebCommand}" />
                     </Grid>
-                </Frame>
-
-
+                </Frame> 
             </Grid>
         </StackLayout>
     </ContentPage.Content>

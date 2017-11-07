@@ -6,7 +6,7 @@ namespace PokeConf.App.Services
 { 
     public interface IPokemonStore<T> 
     {
-        Task<T> GetItemAsync(string id);
-        Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+        Task<T> GetPokemonAsync(string url);
+        Task<IEnumerable<T>> GetPokemonsAsync();
     }
 }
