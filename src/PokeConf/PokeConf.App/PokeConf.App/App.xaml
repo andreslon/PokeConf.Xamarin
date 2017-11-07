@@ -8,6 +8,13 @@
             <Color x:Key="Primary">#FF260E</Color>
             <Color x:Key="PrimaryDark">#A61407</Color> 
             <Color x:Key="Accent">#01A8DD</Color>
+             <Color x:Key="ContentBackground">#222222</Color> 
+            <Color x:Key="BorderBackground">#DEDEDE</Color>
+
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+
+
+            <OnPlatform x:Key="SearchBarBackgroundColor" x:TypeArguments="Color" Android="{StaticResource WhiteColor}" iOS="{StaticResource Primary}" />
 
             
             <Color x:Key="LightBackgroundColor">#FAFAFA</Color>
