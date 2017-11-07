@@ -11,7 +11,7 @@
              <Color x:Key="ContentBackground">#222222</Color> 
             <Color x:Key="BorderBackground">#DEDEDE</Color>
 
-            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Color x:Key="WhiteColor">#DEDEDE</Color>
 
 
             <OnPlatform x:Key="SearchBarBackgroundColor" x:TypeArguments="Color" Android="{StaticResource WhiteColor}" iOS="{StaticResource Primary}" />

@@ -146,6 +146,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\circle.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\circle.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\circle.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PokeConf.App\PokeConf.App.csproj">
