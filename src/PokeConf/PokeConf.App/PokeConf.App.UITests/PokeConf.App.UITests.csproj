@@ -32,6 +32,18 @@
     <Reference Include="Xamarin.UITest">
       <HintPath>..\..\packages\Xamarin.UITest.2.2.0.1668-dev\lib\net45\Xamarin.UITest.dll</HintPath>
     </Reference>
+    <ProjectReference Include="..\PokeConf.App.Android\PokeConf.App.Android.csproj">
+      <Project>{D8E74469-B315-4389-A7AC-3AF11EC0DBB6}</Project>
+      <Name>PokeConf.App.Android</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\PokeConf.App.iOS\PokeConf.App.iOS.csproj">
+      <Project>{F2284A68-AFB5-4700-898C-1A4FAA9A3917}</Project>
+      <Name>PokeConf.App.iOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests.cs" />

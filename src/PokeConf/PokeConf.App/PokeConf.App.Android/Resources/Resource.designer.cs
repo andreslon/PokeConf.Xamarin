@@ -26,6 +26,111 @@ namespace PokeConf.App.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::MonoDroidToolkit.Resource.Attribute.circleColor = global::PokeConf.App.Droid.Resource.Attribute.circleColor;
+			global::MonoDroidToolkit.Resource.Attribute.circularProgressBarStyle = global::PokeConf.App.Droid.Resource.Attribute.circularProgressBarStyle;
+			global::MonoDroidToolkit.Resource.Attribute.circular_gravity = global::PokeConf.App.Droid.Resource.Attribute.circular_gravity;
+			global::MonoDroidToolkit.Resource.Attribute.circular_indeterminate = global::PokeConf.App.Droid.Resource.Attribute.circular_indeterminate;
+			global::MonoDroidToolkit.Resource.Attribute.circular_indeterminate_interval = global::PokeConf.App.Droid.Resource.Attribute.circular_indeterminate_interval;
+			global::MonoDroidToolkit.Resource.Attribute.circular_marker_progress = global::PokeConf.App.Droid.Resource.Attribute.circular_marker_progress;
+			global::MonoDroidToolkit.Resource.Attribute.circular_progress = global::PokeConf.App.Droid.Resource.Attribute.circular_progress;
+			global::MonoDroidToolkit.Resource.Attribute.circular_progress_background_color = global::PokeConf.App.Droid.Resource.Attribute.circular_progress_background_color;
+			global::MonoDroidToolkit.Resource.Attribute.circular_progress_color = global::PokeConf.App.Droid.Resource.Attribute.circular_progress_color;
+			global::MonoDroidToolkit.Resource.Attribute.circular_stroke_width = global::PokeConf.App.Droid.Resource.Attribute.circular_stroke_width;
+			global::MonoDroidToolkit.Resource.Attribute.indeterminate = global::PokeConf.App.Droid.Resource.Attribute.indeterminate;
+			global::MonoDroidToolkit.Resource.Attribute.indeterminate_interval = global::PokeConf.App.Droid.Resource.Attribute.indeterminate_interval;
+			global::MonoDroidToolkit.Resource.Attribute.innerSize = global::PokeConf.App.Droid.Resource.Attribute.innerSize;
+			global::MonoDroidToolkit.Resource.Attribute.max = global::PokeConf.App.Droid.Resource.Attribute.max;
+			global::MonoDroidToolkit.Resource.Attribute.pinned = global::PokeConf.App.Droid.Resource.Attribute.pinned;
+			global::MonoDroidToolkit.Resource.Attribute.pinnedDrawable = global::PokeConf.App.Droid.Resource.Attribute.pinnedDrawable;
+			global::MonoDroidToolkit.Resource.Attribute.progress = global::PokeConf.App.Droid.Resource.Attribute.progress;
+			global::MonoDroidToolkit.Resource.Attribute.progressButtonStyle = global::PokeConf.App.Droid.Resource.Attribute.progressButtonStyle;
+			global::MonoDroidToolkit.Resource.Attribute.progressColor = global::PokeConf.App.Droid.Resource.Attribute.progressColor;
+			global::MonoDroidToolkit.Resource.Attribute.shadowDrawable = global::PokeConf.App.Droid.Resource.Attribute.shadowDrawable;
+			global::MonoDroidToolkit.Resource.Attribute.unpinnedDrawable = global::PokeConf.App.Droid.Resource.Attribute.unpinnedDrawable;
+			global::MonoDroidToolkit.Resource.Color.progress_default_circle_color = global::PokeConf.App.Droid.Resource.Color.progress_default_circle_color;
+			global::MonoDroidToolkit.Resource.Color.progress_default_progress_color = global::PokeConf.App.Droid.Resource.Color.progress_default_progress_color;
+			global::MonoDroidToolkit.Resource.Color.refractored_background_dark = global::PokeConf.App.Droid.Resource.Color.refractored_background_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_background_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_background_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_background_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_background_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_background_light = global::PokeConf.App.Droid.Resource.Color.refractored_background_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_dark = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_dark_disabled;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_bright_foreground_light = global::PokeConf.App.Droid.Resource.Color.refractored_bright_foreground_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_dim_foreground_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_dim_foreground_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_dim_foreground_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_highlighted_text_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_highlighted_text_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_highlighted_text_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::PokeConf.App.Droid.Resource.Color.refractored_hint_foreground_holo_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_hint_foreground_holo_light = global::PokeConf.App.Droid.Resource.Color.refractored_hint_foreground_holo_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_blue_bright = global::PokeConf.App.Droid.Resource.Color.refractored_holo_blue_bright;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_blue_dark = global::PokeConf.App.Droid.Resource.Color.refractored_holo_blue_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_blue_light = global::PokeConf.App.Droid.Resource.Color.refractored_holo_blue_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_green_dark = global::PokeConf.App.Droid.Resource.Color.refractored_holo_green_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_green_light = global::PokeConf.App.Droid.Resource.Color.refractored_holo_green_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_orange_dark = global::PokeConf.App.Droid.Resource.Color.refractored_holo_orange_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_orange_light = global::PokeConf.App.Droid.Resource.Color.refractored_holo_orange_light;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_purple = global::PokeConf.App.Droid.Resource.Color.refractored_holo_purple;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_red_dark = global::PokeConf.App.Droid.Resource.Color.refractored_holo_red_dark;
+			global::MonoDroidToolkit.Resource.Color.refractored_holo_red_light = global::PokeConf.App.Droid.Resource.Color.refractored_holo_red_light;
+			global::MonoDroidToolkit.Resource.Dimension.progress_inner_size = global::PokeConf.App.Droid.Resource.Dimension.progress_inner_size;
+			global::MonoDroidToolkit.Resource.Drawable.pin_progress_pinned = global::PokeConf.App.Droid.Resource.Drawable.pin_progress_pinned;
+			global::MonoDroidToolkit.Resource.Drawable.pin_progress_shadow = global::PokeConf.App.Droid.Resource.Drawable.pin_progress_shadow;
+			global::MonoDroidToolkit.Resource.Drawable.pin_progress_unpinned = global::PokeConf.App.Droid.Resource.Drawable.pin_progress_unpinned;
+			global::MonoDroidToolkit.Resource.Drawable.scrubber_control_normal_holo = global::PokeConf.App.Droid.Resource.Drawable.scrubber_control_normal_holo;
+			global::MonoDroidToolkit.Resource.Drawable.scrubber_control_pressed_holo = global::PokeConf.App.Droid.Resource.Drawable.scrubber_control_pressed_holo;
+			global::MonoDroidToolkit.Resource.Id.bottom = global::PokeConf.App.Droid.Resource.Id.bottom;
+			global::MonoDroidToolkit.Resource.Id.center = global::PokeConf.App.Droid.Resource.Id.center;
+			global::MonoDroidToolkit.Resource.Id.center_horizontal = global::PokeConf.App.Droid.Resource.Id.center_horizontal;
+			global::MonoDroidToolkit.Resource.Id.center_vertical = global::PokeConf.App.Droid.Resource.Id.center_vertical;
+			global::MonoDroidToolkit.Resource.Id.clip = global::PokeConf.App.Droid.Resource.Id.clip;
+			global::MonoDroidToolkit.Resource.Id.clip_horizontal = global::PokeConf.App.Droid.Resource.Id.clip_horizontal;
+			global::MonoDroidToolkit.Resource.Id.clip_vertical = global::PokeConf.App.Droid.Resource.Id.clip_vertical;
+			global::MonoDroidToolkit.Resource.Id.end = global::PokeConf.App.Droid.Resource.Id.end;
+			global::MonoDroidToolkit.Resource.Id.fill = global::PokeConf.App.Droid.Resource.Id.fill;
+			global::MonoDroidToolkit.Resource.Id.fill_horizontal = global::PokeConf.App.Droid.Resource.Id.fill_horizontal;
+			global::MonoDroidToolkit.Resource.Id.fill_vertical = global::PokeConf.App.Droid.Resource.Id.fill_vertical;
+			global::MonoDroidToolkit.Resource.Id.left = global::PokeConf.App.Droid.Resource.Id.left;
+			global::MonoDroidToolkit.Resource.Id.right = global::PokeConf.App.Droid.Resource.Id.right;
+			global::MonoDroidToolkit.Resource.Id.start = global::PokeConf.App.Droid.Resource.Id.start;
+			global::MonoDroidToolkit.Resource.Id.top = global::PokeConf.App.Droid.Resource.Id.top;
+			global::MonoDroidToolkit.Resource.Integer.circular_indeterminent_interval = global::PokeConf.App.Droid.Resource.Integer.circular_indeterminent_interval;
+			global::MonoDroidToolkit.Resource.Integer.progressbutton_indeterminent_interval = global::PokeConf.App.Droid.Resource.Integer.progressbutton_indeterminent_interval;
+			global::MonoDroidToolkit.Resource.Style.CircularProgressBar = global::PokeConf.App.Droid.Resource.Style.CircularProgressBar;
+			global::MonoDroidToolkit.Resource.Style.CircularProgressBarLight = global::PokeConf.App.Droid.Resource.Style.CircularProgressBarLight;
+			global::MonoDroidToolkit.Resource.Style.ProgressButton = global::PokeConf.App.Droid.Resource.Style.ProgressButton;
+			global::MonoDroidToolkit.Resource.Style.ProgressButton_Pin = global::PokeConf.App.Droid.Resource.Style.ProgressButton_Pin;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
+			global::MonoDroidToolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::PokeConf.App.Droid.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_android_clickable = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_android_clickable;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_android_focusable = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_android_focusable;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_android_selectableItemBackground;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_circleColor = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_circleColor;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_indeterminate = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_indeterminate;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_indeterminate_interval;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_innerSize = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_innerSize;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_max = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_max;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_pinned = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_pinned;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_pinnedDrawable;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_progress = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_progress;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_progressColor = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_progressColor;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_shadowDrawable;
+			global::MonoDroidToolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::PokeConf.App.Droid.Resource.Styleable.ProgressButton_unpinnedDrawable;
+			global::MonoDroidToolkit.Resource.Styleable.Theme = global::PokeConf.App.Droid.Resource.Styleable.Theme;
+			global::MonoDroidToolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::PokeConf.App.Droid.Resource.Styleable.Theme_circularProgressBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::PokeConf.App.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -358,6 +463,36 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0100be
 			public const int checkedTextViewStyle = 2130772158;
 			
+			// aapt resource value: 0x7f010176
+			public const int circleColor = 2130772342;
+			
+			// aapt resource value: 0x7f010187
+			public const int circularProgressBarStyle = 2130772359;
+			
+			// aapt resource value: 0x7f01017f
+			public const int circular_gravity = 2130772351;
+			
+			// aapt resource value: 0x7f010185
+			public const int circular_indeterminate = 2130772357;
+			
+			// aapt resource value: 0x7f010186
+			public const int circular_indeterminate_interval = 2130772358;
+			
+			// aapt resource value: 0x7f010182
+			public const int circular_marker_progress = 2130772354;
+			
+			// aapt resource value: 0x7f010181
+			public const int circular_progress = 2130772353;
+			
+			// aapt resource value: 0x7f010184
+			public const int circular_progress_background_color = 2130772356;
+			
+			// aapt resource value: 0x7f010183
+			public const int circular_progress_color = 2130772355;
+			
+			// aapt resource value: 0x7f010180
+			public const int circular_stroke_width = 2130772352;
+			
 			// aapt resource value: 0x7f0100ee
 			public const int closeIcon = 2130772206;
 			
@@ -649,11 +784,20 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f010095
 			public const int imageButtonStyle = 2130772117;
 			
+			// aapt resource value: 0x7f01017d
+			public const int indeterminate = 2130772349;
+			
 			// aapt resource value: 0x7f010034
 			public const int indeterminateProgressStyle = 2130772020;
 			
+			// aapt resource value: 0x7f01017e
+			public const int indeterminate_interval = 2130772350;
+			
 			// aapt resource value: 0x7f010041
 			public const int initialActivityCount = 2130772033;
+			
+			// aapt resource value: 0x7f01017b
+			public const int innerSize = 2130772347;
 			
 			// aapt resource value: 0x7f010149
 			public const int insetForeground = 2130772297;
@@ -753,6 +897,9 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 0x7f010110
 			public const int logoDescription = 2130772240;
+			
+			// aapt resource value: 0x7f010175
+			public const int max = 2130772341;
 			
 			// aapt resource value: 0x7f01014b
 			public const int maxActionInlineWidth = 2130772299;
@@ -859,6 +1006,12 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f010169
 			public const int passwordToggleTintMode = 2130772329;
 			
+			// aapt resource value: 0x7f01017c
+			public const int pinned = 2130772348;
+			
+			// aapt resource value: 0x7f010178
+			public const int pinnedDrawable = 2130772344;
+			
 			// aapt resource value: 0x7f010091
 			public const int popupMenuStyle = 2130772113;
 			
@@ -874,11 +1027,20 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f01013e
 			public const int pressedTranslationZ = 2130772286;
 			
+			// aapt resource value: 0x7f010174
+			public const int progress = 2130772340;
+			
 			// aapt resource value: 0x7f010035
 			public const int progressBarPadding = 2130772021;
 			
 			// aapt resource value: 0x7f010033
 			public const int progressBarStyle = 2130772019;
+			
+			// aapt resource value: 0x7f010173
+			public const int progressButtonStyle = 2130772339;
+			
+			// aapt resource value: 0x7f010177
+			public const int progressColor = 2130772343;
 			
 			// aapt resource value: 0x7f0100f5
 			public const int queryBackground = 2130772213;
@@ -927,6 +1089,9 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 0x7f01008a
 			public const int selectableItemBackgroundBorderless = 2130772106;
+			
+			// aapt resource value: 0x7f01017a
+			public const int shadowDrawable = 2130772346;
 			
 			// aapt resource value: 0x7f0100dc
 			public const int showAsAction = 2130772188;
@@ -1186,6 +1351,9 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0100fb
 			public const int trackTintMode = 2130772219;
 			
+			// aapt resource value: 0x7f010179
+			public const int unpinnedDrawable = 2130772345;
+			
 			// aapt resource value: 0x7f010140
 			public const int useCompatPadding = 2130772288;
 			
@@ -1263,44 +1431,44 @@ namespace PokeConf.App.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
+			// aapt resource value: 0x7f0c006a
+			public const int abc_background_cache_hint_selector_material_dark = 2131492970;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
+			// aapt resource value: 0x7f0c006b
+			public const int abc_background_cache_hint_selector_material_light = 2131492971;
 			
-			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			// aapt resource value: 0x7f0c006c
+			public const int abc_btn_colored_borderless_text_material = 2131492972;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			// aapt resource value: 0x7f0c006d
+			public const int abc_btn_colored_text_material = 2131492973;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			// aapt resource value: 0x7f0c006e
+			public const int abc_color_highlight_material = 2131492974;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
+			// aapt resource value: 0x7f0c006f
+			public const int abc_hint_foreground_material_dark = 2131492975;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			// aapt resource value: 0x7f0c0070
+			public const int abc_hint_foreground_material_light = 2131492976;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int abc_input_method_navigation_guard = 2131492868;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
+			// aapt resource value: 0x7f0c0071
+			public const int abc_primary_text_disable_only_material_dark = 2131492977;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			// aapt resource value: 0x7f0c0072
+			public const int abc_primary_text_disable_only_material_light = 2131492978;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			// aapt resource value: 0x7f0c0073
+			public const int abc_primary_text_material_dark = 2131492979;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			// aapt resource value: 0x7f0c0074
+			public const int abc_primary_text_material_light = 2131492980;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			// aapt resource value: 0x7f0c0075
+			public const int abc_search_url_text = 2131492981;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int abc_search_url_text_normal = 2131492869;
@@ -1311,29 +1479,29 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0c0007
 			public const int abc_search_url_text_selected = 2131492871;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
+			// aapt resource value: 0x7f0c0076
+			public const int abc_secondary_text_material_dark = 2131492982;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
+			// aapt resource value: 0x7f0c0077
+			public const int abc_secondary_text_material_light = 2131492983;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			// aapt resource value: 0x7f0c0078
+			public const int abc_tint_btn_checkable = 2131492984;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			// aapt resource value: 0x7f0c0079
+			public const int abc_tint_default = 2131492985;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			// aapt resource value: 0x7f0c007a
+			public const int abc_tint_edittext = 2131492986;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			// aapt resource value: 0x7f0c007b
+			public const int abc_tint_seek_thumb = 2131492987;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			// aapt resource value: 0x7f0c007c
+			public const int abc_tint_spinner = 2131492988;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			// aapt resource value: 0x7f0c007d
+			public const int abc_tint_switch_track = 2131492989;
 			
 			// aapt resource value: 0x7f0c0008
 			public const int accent_material_dark = 2131492872;
@@ -1392,8 +1560,8 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0c0040
 			public const int design_bottom_navigation_shadow_color = 2131492928;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c007e
+			public const int design_error = 2131492990;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int design_fab_shadow_end_color = 2131492929;
@@ -1419,8 +1587,8 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0c0048
 			public const int design_snackbar_background_color = 2131492936;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c007f
+			public const int design_tint_password_toggle = 2131492991;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int dim_foreground_disabled_material_dark = 2131492886;
@@ -1518,6 +1686,99 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0c0032
 			public const int primary_text_disabled_material_light = 2131492914;
 			
+			// aapt resource value: 0x7f0c004b
+			public const int progress_default_circle_color = 2131492939;
+			
+			// aapt resource value: 0x7f0c004c
+			public const int progress_default_progress_color = 2131492940;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int refractored_background_dark = 2131492941;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int refractored_background_holo_dark = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int refractored_background_holo_light = 2131492947;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int refractored_background_light = 2131492942;
+			
+			// aapt resource value: 0x7f0c004f
+			public const int refractored_bright_foreground_dark = 2131492943;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int refractored_bright_foreground_dark_disabled = 2131492945;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int refractored_bright_foreground_disabled_holo_dark = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int refractored_bright_foreground_disabled_holo_light = 2131492951;
+			
+			// aapt resource value: 0x7f0c0054
+			public const int refractored_bright_foreground_holo_dark = 2131492948;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int refractored_bright_foreground_holo_light = 2131492949;
+			
+			// aapt resource value: 0x7f0c0050
+			public const int refractored_bright_foreground_light = 2131492944;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int refractored_dim_foreground_disabled_holo_dark = 2131492953;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int refractored_dim_foreground_disabled_holo_light = 2131492956;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int refractored_dim_foreground_holo_dark = 2131492952;
+			
+			// aapt resource value: 0x7f0c005b
+			public const int refractored_dim_foreground_holo_light = 2131492955;
+			
+			// aapt resource value: 0x7f0c005e
+			public const int refractored_highlighted_text_holo_dark = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int refractored_highlighted_text_holo_light = 2131492959;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int refractored_hint_foreground_holo_dark = 2131492954;
+			
+			// aapt resource value: 0x7f0c005d
+			public const int refractored_hint_foreground_holo_light = 2131492957;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int refractored_holo_blue_bright = 2131492969;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int refractored_holo_blue_dark = 2131492963;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int refractored_holo_blue_light = 2131492960;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int refractored_holo_green_dark = 2131492964;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int refractored_holo_green_light = 2131492961;
+			
+			// aapt resource value: 0x7f0c0068
+			public const int refractored_holo_orange_dark = 2131492968;
+			
+			// aapt resource value: 0x7f0c0067
+			public const int refractored_holo_orange_light = 2131492967;
+			
+			// aapt resource value: 0x7f0c0066
+			public const int refractored_holo_purple = 2131492966;
+			
+			// aapt resource value: 0x7f0c0065
+			public const int refractored_holo_red_dark = 2131492965;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int refractored_holo_red_light = 2131492962;
+			
 			// aapt resource value: 0x7f0c0033
 			public const int ripple_material_dark = 2131492915;
 			
@@ -1542,11 +1803,11 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0c003a
 			public const int switch_thumb_disabled_material_light = 2131492922;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c0080
+			public const int switch_thumb_material_dark = 2131492992;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c0081
+			public const int switch_thumb_material_light = 2131492993;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int switch_thumb_normal_material_dark = 2131492923;
@@ -2041,6 +2302,9 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0700a3
 			public const int notification_top_pad_large_text = 2131165347;
 			
+			// aapt resource value: 0x7f0700a4
+			public const int progress_inner_size = 2131165348;
+			
 			// aapt resource value: 0x7f070062
 			public const int tooltip_corner_radius = 2131165282;
 			
@@ -2330,26 +2594,26 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_hide_password_1 = 2130837812;
+			// aapt resource value: 0x7f020139
+			public const int avd_hide_password_1 = 2130837817;
 			
-			// aapt resource value: 0x7f020135
-			public const int avd_hide_password_2 = 2130837813;
+			// aapt resource value: 0x7f02013a
+			public const int avd_hide_password_2 = 2130837818;
 			
-			// aapt resource value: 0x7f020136
-			public const int avd_hide_password_3 = 2130837814;
+			// aapt resource value: 0x7f02013b
+			public const int avd_hide_password_3 = 2130837819;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020137
-			public const int avd_show_password_1 = 2130837815;
+			// aapt resource value: 0x7f02013c
+			public const int avd_show_password_1 = 2130837820;
 			
-			// aapt resource value: 0x7f020138
-			public const int avd_show_password_2 = 2130837816;
+			// aapt resource value: 0x7f02013d
+			public const int avd_show_password_2 = 2130837821;
 			
-			// aapt resource value: 0x7f020139
-			public const int avd_show_password_3 = 2130837817;
+			// aapt resource value: 0x7f02013e
+			public const int avd_show_password_3 = 2130837822;
 			
 			// aapt resource value: 0x7f020055
 			public const int background = 2130837589;
@@ -2999,11 +3263,11 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f02012c
 			public const int notification_icon_background = 2130837804;
 			
-			// aapt resource value: 0x7f020132
-			public const int notification_template_icon_bg = 2130837810;
+			// aapt resource value: 0x7f020137
+			public const int notification_template_icon_bg = 2130837815;
 			
-			// aapt resource value: 0x7f020133
-			public const int notification_template_icon_low_bg = 2130837811;
+			// aapt resource value: 0x7f020138
+			public const int notification_template_icon_low_bg = 2130837816;
 			
 			// aapt resource value: 0x7f02012d
 			public const int notification_tile_bg = 2130837805;
@@ -3012,13 +3276,28 @@ namespace PokeConf.App.Droid
 			public const int notify_panel_notification_icon_bg = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int tooltip_frame_dark = 2130837807;
+			public const int pin_progress_pinned = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int tooltip_frame_light = 2130837808;
+			public const int pin_progress_shadow = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int xamarin_logo = 2130837809;
+			public const int pin_progress_unpinned = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int scrubber_control_normal_holo = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int scrubber_control_pressed_holo = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int tooltip_frame_dark = 2130837812;
+			
+			// aapt resource value: 0x7f020135
+			public const int tooltip_frame_light = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int xamarin_logo = 2130837814;
 			
 			static Drawable()
 			{
@@ -3051,41 +3330,41 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080036
 			public const int SYM = 2131230774;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int action0 = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int action0 = 2131230902;
 			
-			// aapt resource value: 0x7f08007b
-			public const int action_bar = 2131230843;
+			// aapt resource value: 0x7f08007c
+			public const int action_bar = 2131230844;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_activity_content = 2131230721;
 			
-			// aapt resource value: 0x7f08007a
-			public const int action_bar_container = 2131230842;
+			// aapt resource value: 0x7f08007b
+			public const int action_bar_container = 2131230843;
 			
-			// aapt resource value: 0x7f080076
-			public const int action_bar_root = 2131230838;
+			// aapt resource value: 0x7f080077
+			public const int action_bar_root = 2131230839;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_bar_spinner = 2131230722;
 			
+			// aapt resource value: 0x7f08005b
+			public const int action_bar_subtitle = 2131230811;
+			
 			// aapt resource value: 0x7f08005a
-			public const int action_bar_subtitle = 2131230810;
-			
-			// aapt resource value: 0x7f080059
-			public const int action_bar_title = 2131230809;
-			
-			// aapt resource value: 0x7f0800b2
-			public const int action_container = 2131230898;
-			
-			// aapt resource value: 0x7f08007c
-			public const int action_context_bar = 2131230844;
-			
-			// aapt resource value: 0x7f0800b9
-			public const int action_divider = 2131230905;
+			public const int action_bar_title = 2131230810;
 			
 			// aapt resource value: 0x7f0800b3
-			public const int action_image = 2131230899;
+			public const int action_container = 2131230899;
+			
+			// aapt resource value: 0x7f08007d
+			public const int action_context_bar = 2131230845;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int action_divider = 2131230906;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int action_image = 2131230900;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -3093,29 +3372,29 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080004
 			public const int action_menu_presenter = 2131230724;
 			
+			// aapt resource value: 0x7f080079
+			public const int action_mode_bar = 2131230841;
+			
 			// aapt resource value: 0x7f080078
-			public const int action_mode_bar = 2131230840;
-			
-			// aapt resource value: 0x7f080077
-			public const int action_mode_bar_stub = 2131230839;
-			
-			// aapt resource value: 0x7f08005b
-			public const int action_mode_close_button = 2131230811;
-			
-			// aapt resource value: 0x7f0800b4
-			public const int action_text = 2131230900;
-			
-			// aapt resource value: 0x7f0800c2
-			public const int actions = 2131230914;
+			public const int action_mode_bar_stub = 2131230840;
 			
 			// aapt resource value: 0x7f08005c
-			public const int activity_chooser_view_content = 2131230812;
+			public const int action_mode_close_button = 2131230812;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int action_text = 2131230901;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int actions = 2131230915;
+			
+			// aapt resource value: 0x7f08005d
+			public const int activity_chooser_view_content = 2131230813;
 			
 			// aapt resource value: 0x7f08002b
 			public const int add = 2131230763;
 			
-			// aapt resource value: 0x7f08006f
-			public const int alertTitle = 2131230831;
+			// aapt resource value: 0x7f080070
+			public const int alertTitle = 2131230832;
 			
 			// aapt resource value: 0x7f080051
 			public const int all = 2131230801;
@@ -3138,11 +3417,11 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f08003c
 			public const int bottom = 2131230780;
 			
-			// aapt resource value: 0x7f080062
-			public const int buttonPanel = 2131230818;
+			// aapt resource value: 0x7f080063
+			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int cancel_action = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int cancel_action = 2131230903;
 			
 			// aapt resource value: 0x7f080044
 			public const int center = 2131230788;
@@ -3153,11 +3432,14 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080046
 			public const int center_vertical = 2131230790;
 			
-			// aapt resource value: 0x7f080072
-			public const int checkbox = 2131230834;
+			// aapt resource value: 0x7f080073
+			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800be
-			public const int chronometer = 2131230910;
+			// aapt resource value: 0x7f0800bf
+			public const int chronometer = 2131230911;
+			
+			// aapt resource value: 0x7f080059
+			public const int clip = 2131230809;
 			
 			// aapt resource value: 0x7f08004d
 			public const int clip_horizontal = 2131230797;
@@ -3168,53 +3450,53 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080038
 			public const int collapseActionView = 2131230776;
 			
-			// aapt resource value: 0x7f08008c
-			public const int container = 2131230860;
-			
-			// aapt resource value: 0x7f080065
-			public const int contentPanel = 2131230821;
-			
 			// aapt resource value: 0x7f08008d
-			public const int coordinator = 2131230861;
+			public const int container = 2131230861;
+			
+			// aapt resource value: 0x7f080066
+			public const int contentPanel = 2131230822;
+			
+			// aapt resource value: 0x7f08008e
+			public const int coordinator = 2131230862;
+			
+			// aapt resource value: 0x7f08006d
+			public const int custom = 2131230829;
 			
 			// aapt resource value: 0x7f08006c
-			public const int custom = 2131230828;
+			public const int customPanel = 2131230828;
 			
-			// aapt resource value: 0x7f08006b
-			public const int customPanel = 2131230827;
+			// aapt resource value: 0x7f08007a
+			public const int decor_content_parent = 2131230842;
 			
-			// aapt resource value: 0x7f080079
-			public const int decor_content_parent = 2131230841;
+			// aapt resource value: 0x7f080060
+			public const int default_activity_button = 2131230816;
 			
-			// aapt resource value: 0x7f08005f
-			public const int default_activity_button = 2131230815;
+			// aapt resource value: 0x7f080090
+			public const int design_bottom_sheet = 2131230864;
 			
-			// aapt resource value: 0x7f08008f
-			public const int design_bottom_sheet = 2131230863;
+			// aapt resource value: 0x7f080097
+			public const int design_menu_item_action_area = 2131230871;
 			
 			// aapt resource value: 0x7f080096
-			public const int design_menu_item_action_area = 2131230870;
+			public const int design_menu_item_action_area_stub = 2131230870;
 			
 			// aapt resource value: 0x7f080095
-			public const int design_menu_item_action_area_stub = 2131230869;
+			public const int design_menu_item_text = 2131230869;
 			
 			// aapt resource value: 0x7f080094
-			public const int design_menu_item_text = 2131230868;
-			
-			// aapt resource value: 0x7f080093
-			public const int design_navigation_view = 2131230867;
+			public const int design_navigation_view = 2131230868;
 			
 			// aapt resource value: 0x7f08001f
 			public const int disableHome = 2131230751;
 			
-			// aapt resource value: 0x7f08007d
-			public const int edit_query = 2131230845;
+			// aapt resource value: 0x7f08007e
+			public const int edit_query = 2131230846;
 			
 			// aapt resource value: 0x7f08002f
 			public const int end = 2131230767;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int end_padder = 2131230916;
+			// aapt resource value: 0x7f0800c5
+			public const int end_padder = 2131230917;
 			
 			// aapt resource value: 0x7f08003e
 			public const int enterAlways = 2131230782;
@@ -3225,11 +3507,11 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080040
 			public const int exitUntilCollapsed = 2131230784;
 			
-			// aapt resource value: 0x7f08005d
-			public const int expand_activities_button = 2131230813;
+			// aapt resource value: 0x7f08005e
+			public const int expand_activities_button = 2131230814;
 			
-			// aapt resource value: 0x7f080071
-			public const int expanded_menu = 2131230833;
+			// aapt resource value: 0x7f080072
+			public const int expanded_menu = 2131230834;
 			
 			// aapt resource value: 0x7f08004f
 			public const int fill = 2131230799;
@@ -3255,20 +3537,20 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080020
 			public const int homeAsUp = 2131230752;
 			
-			// aapt resource value: 0x7f080061
-			public const int icon = 2131230817;
+			// aapt resource value: 0x7f080062
+			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int icon_group = 2131230915;
+			// aapt resource value: 0x7f0800c4
+			public const int icon_group = 2131230916;
 			
 			// aapt resource value: 0x7f080039
 			public const int ifRoom = 2131230777;
 			
-			// aapt resource value: 0x7f08005e
-			public const int image = 2131230814;
+			// aapt resource value: 0x7f08005f
+			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int info = 2131230911;
+			// aapt resource value: 0x7f0800c0
+			public const int info = 2131230912;
 			
 			// aapt resource value: 0x7f080058
 			public const int italic = 2131230808;
@@ -3276,8 +3558,8 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08008b
-			public const int largeLabel = 2131230859;
+			// aapt resource value: 0x7f08008c
+			public const int largeLabel = 2131230860;
 			
 			// aapt resource value: 0x7f080048
 			public const int left = 2131230792;
@@ -3291,17 +3573,17 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f08001c
 			public const int listMode = 2131230748;
 			
-			// aapt resource value: 0x7f080060
-			public const int list_item = 2131230816;
+			// aapt resource value: 0x7f080061
+			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int masked = 2131230921;
+			// aapt resource value: 0x7f0800ca
+			public const int masked = 2131230922;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int media_actions = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int media_actions = 2131230905;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int message = 2131230919;
+			// aapt resource value: 0x7f0800c8
+			public const int message = 2131230920;
 			
 			// aapt resource value: 0x7f080030
 			public const int middle = 2131230768;
@@ -3309,86 +3591,86 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080052
 			public const int mini = 2131230802;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int mr_art = 2131230884;
-			
-			// aapt resource value: 0x7f080099
-			public const int mr_chooser_list = 2131230873;
-			
-			// aapt resource value: 0x7f08009c
-			public const int mr_chooser_route_desc = 2131230876;
+			// aapt resource value: 0x7f0800a5
+			public const int mr_art = 2131230885;
 			
 			// aapt resource value: 0x7f08009a
-			public const int mr_chooser_route_icon = 2131230874;
-			
-			// aapt resource value: 0x7f08009b
-			public const int mr_chooser_route_name = 2131230875;
-			
-			// aapt resource value: 0x7f080098
-			public const int mr_chooser_title = 2131230872;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int mr_close = 2131230881;
-			
-			// aapt resource value: 0x7f0800a7
-			public const int mr_control_divider = 2131230887;
-			
-			// aapt resource value: 0x7f0800ad
-			public const int mr_control_playback_ctrl = 2131230893;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int mr_control_subtitle = 2131230896;
-			
-			// aapt resource value: 0x7f0800af
-			public const int mr_control_title = 2131230895;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int mr_control_title_container = 2131230894;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int mr_custom_control = 2131230882;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int mr_default_control = 2131230883;
-			
-			// aapt resource value: 0x7f08009e
-			public const int mr_dialog_area = 2131230878;
+			public const int mr_chooser_list = 2131230874;
 			
 			// aapt resource value: 0x7f08009d
-			public const int mr_expandable_area = 2131230877;
+			public const int mr_chooser_route_desc = 2131230877;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int mr_group_expand_collapse = 2131230897;
+			// aapt resource value: 0x7f08009b
+			public const int mr_chooser_route_icon = 2131230875;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int mr_media_main_control = 2131230885;
+			// aapt resource value: 0x7f08009c
+			public const int mr_chooser_route_name = 2131230876;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int mr_name = 2131230880;
+			// aapt resource value: 0x7f080099
+			public const int mr_chooser_title = 2131230873;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int mr_playback_control = 2131230886;
-			
-			// aapt resource value: 0x7f08009f
-			public const int mr_title_bar = 2131230879;
+			// aapt resource value: 0x7f0800a2
+			public const int mr_close = 2131230882;
 			
 			// aapt resource value: 0x7f0800a8
-			public const int mr_volume_control = 2131230888;
+			public const int mr_control_divider = 2131230888;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int mr_control_playback_ctrl = 2131230894;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int mr_control_subtitle = 2131230897;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int mr_control_title = 2131230896;
+			
+			// aapt resource value: 0x7f0800af
+			public const int mr_control_title_container = 2131230895;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int mr_custom_control = 2131230883;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int mr_default_control = 2131230884;
+			
+			// aapt resource value: 0x7f08009f
+			public const int mr_dialog_area = 2131230879;
+			
+			// aapt resource value: 0x7f08009e
+			public const int mr_expandable_area = 2131230878;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int mr_group_expand_collapse = 2131230898;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int mr_media_main_control = 2131230886;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int mr_name = 2131230881;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int mr_playback_control = 2131230887;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int mr_title_bar = 2131230880;
 			
 			// aapt resource value: 0x7f0800a9
-			public const int mr_volume_group_list = 2131230889;
+			public const int mr_volume_control = 2131230889;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int mr_volume_item_icon = 2131230891;
+			// aapt resource value: 0x7f0800aa
+			public const int mr_volume_group_list = 2131230890;
 			
 			// aapt resource value: 0x7f0800ac
-			public const int mr_volume_slider = 2131230892;
+			public const int mr_volume_item_icon = 2131230892;
+			
+			// aapt resource value: 0x7f0800ad
+			public const int mr_volume_slider = 2131230893;
 			
 			// aapt resource value: 0x7f080026
 			public const int multiply = 2131230758;
 			
-			// aapt resource value: 0x7f080092
-			public const int navigation_header_container = 2131230866;
+			// aapt resource value: 0x7f080093
+			public const int navigation_header_container = 2131230867;
 			
 			// aapt resource value: 0x7f08003a
 			public const int never = 2131230778;
@@ -3399,20 +3681,20 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f08001d
 			public const int normal = 2131230749;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int notification_background = 2131230913;
+			// aapt resource value: 0x7f0800c2
+			public const int notification_background = 2131230914;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int notification_main_column = 2131230908;
 			
 			// aapt resource value: 0x7f0800bb
-			public const int notification_main_column = 2131230907;
-			
-			// aapt resource value: 0x7f0800ba
-			public const int notification_main_column_container = 2131230906;
+			public const int notification_main_column_container = 2131230907;
 			
 			// aapt resource value: 0x7f08004b
 			public const int parallax = 2131230795;
 			
-			// aapt resource value: 0x7f080064
-			public const int parentPanel = 2131230820;
+			// aapt resource value: 0x7f080065
+			public const int parentPanel = 2131230821;
 			
 			// aapt resource value: 0x7f08000b
 			public const int parent_matrix = 2131230731;
@@ -3426,17 +3708,17 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f080074
-			public const int radio = 2131230836;
+			// aapt resource value: 0x7f080075
+			public const int radio = 2131230837;
 			
 			// aapt resource value: 0x7f080049
 			public const int right = 2131230793;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int right_icon = 2131230912;
+			// aapt resource value: 0x7f0800c1
+			public const int right_icon = 2131230913;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int right_side = 2131230908;
+			// aapt resource value: 0x7f0800bd
+			public const int right_side = 2131230909;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -3453,53 +3735,53 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080041
 			public const int scroll = 2131230785;
 			
-			// aapt resource value: 0x7f08006a
-			public const int scrollIndicatorDown = 2131230826;
-			
-			// aapt resource value: 0x7f080066
-			public const int scrollIndicatorUp = 2131230822;
+			// aapt resource value: 0x7f08006b
+			public const int scrollIndicatorDown = 2131230827;
 			
 			// aapt resource value: 0x7f080067
-			public const int scrollView = 2131230823;
+			public const int scrollIndicatorUp = 2131230823;
+			
+			// aapt resource value: 0x7f080068
+			public const int scrollView = 2131230824;
 			
 			// aapt resource value: 0x7f080054
 			public const int scrollable = 2131230804;
 			
-			// aapt resource value: 0x7f08007f
-			public const int search_badge = 2131230847;
-			
-			// aapt resource value: 0x7f08007e
-			public const int search_bar = 2131230846;
-			
 			// aapt resource value: 0x7f080080
-			public const int search_button = 2131230848;
+			public const int search_badge = 2131230848;
 			
-			// aapt resource value: 0x7f080085
-			public const int search_close_btn = 2131230853;
+			// aapt resource value: 0x7f08007f
+			public const int search_bar = 2131230847;
 			
 			// aapt resource value: 0x7f080081
-			public const int search_edit_frame = 2131230849;
+			public const int search_button = 2131230849;
 			
-			// aapt resource value: 0x7f080087
-			public const int search_go_btn = 2131230855;
+			// aapt resource value: 0x7f080086
+			public const int search_close_btn = 2131230854;
 			
 			// aapt resource value: 0x7f080082
-			public const int search_mag_icon = 2131230850;
-			
-			// aapt resource value: 0x7f080083
-			public const int search_plate = 2131230851;
-			
-			// aapt resource value: 0x7f080084
-			public const int search_src_text = 2131230852;
+			public const int search_edit_frame = 2131230850;
 			
 			// aapt resource value: 0x7f080088
-			public const int search_voice_btn = 2131230856;
+			public const int search_go_btn = 2131230856;
+			
+			// aapt resource value: 0x7f080083
+			public const int search_mag_icon = 2131230851;
+			
+			// aapt resource value: 0x7f080084
+			public const int search_plate = 2131230852;
+			
+			// aapt resource value: 0x7f080085
+			public const int search_src_text = 2131230853;
 			
 			// aapt resource value: 0x7f080089
-			public const int select_dialog_listview = 2131230857;
+			public const int search_voice_btn = 2131230857;
 			
-			// aapt resource value: 0x7f080073
-			public const int shortcut = 2131230835;
+			// aapt resource value: 0x7f08008a
+			public const int select_dialog_listview = 2131230858;
+			
+			// aapt resource value: 0x7f080074
+			public const int shortcut = 2131230836;
 			
 			// aapt resource value: 0x7f080022
 			public const int showCustom = 2131230754;
@@ -3510,23 +3792,23 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080024
 			public const int showTitle = 2131230756;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int sliding_tabs = 2131230917;
+			// aapt resource value: 0x7f0800c6
+			public const int sliding_tabs = 2131230918;
 			
-			// aapt resource value: 0x7f08008a
-			public const int smallLabel = 2131230858;
+			// aapt resource value: 0x7f08008b
+			public const int smallLabel = 2131230859;
+			
+			// aapt resource value: 0x7f080092
+			public const int snackbar_action = 2131230866;
 			
 			// aapt resource value: 0x7f080091
-			public const int snackbar_action = 2131230865;
-			
-			// aapt resource value: 0x7f080090
-			public const int snackbar_text = 2131230864;
+			public const int snackbar_text = 2131230865;
 			
 			// aapt resource value: 0x7f080042
 			public const int snap = 2131230786;
 			
-			// aapt resource value: 0x7f080063
-			public const int spacer = 2131230819;
+			// aapt resource value: 0x7f080064
+			public const int spacer = 2131230820;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
@@ -3543,14 +3825,14 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f08004a
 			public const int start = 2131230794;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int status_bar_latest_event_content = 2131230903;
+			// aapt resource value: 0x7f0800b8
+			public const int status_bar_latest_event_content = 2131230904;
 			
-			// aapt resource value: 0x7f080075
-			public const int submenuarrow = 2131230837;
+			// aapt resource value: 0x7f080076
+			public const int submenuarrow = 2131230838;
 			
-			// aapt resource value: 0x7f080086
-			public const int submit_area = 2131230854;
+			// aapt resource value: 0x7f080087
+			public const int submit_area = 2131230855;
 			
 			// aapt resource value: 0x7f08001e
 			public const int tabMode = 2131230750;
@@ -3561,14 +3843,14 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f08001a
 			public const int text2 = 2131230746;
 			
+			// aapt resource value: 0x7f08006a
+			public const int textSpacerNoButtons = 2131230826;
+			
 			// aapt resource value: 0x7f080069
-			public const int textSpacerNoButtons = 2131230825;
+			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f080068
-			public const int textSpacerNoTitle = 2131230824;
-			
-			// aapt resource value: 0x7f080097
-			public const int text_input_password_toggle = 2131230871;
+			// aapt resource value: 0x7f080098
+			public const int text_input_password_toggle = 2131230872;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -3576,29 +3858,29 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int time = 2131230909;
+			// aapt resource value: 0x7f0800be
+			public const int time = 2131230910;
 			
 			// aapt resource value: 0x7f08001b
 			public const int title = 2131230747;
 			
-			// aapt resource value: 0x7f080070
-			public const int titleDividerNoCustom = 2131230832;
+			// aapt resource value: 0x7f080071
+			public const int titleDividerNoCustom = 2131230833;
 			
-			// aapt resource value: 0x7f08006e
-			public const int title_template = 2131230830;
+			// aapt resource value: 0x7f08006f
+			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int toolbar = 2131230918;
+			// aapt resource value: 0x7f0800c7
+			public const int toolbar = 2131230919;
 			
 			// aapt resource value: 0x7f08003d
 			public const int top = 2131230781;
 			
-			// aapt resource value: 0x7f08006d
-			public const int topPanel = 2131230829;
+			// aapt resource value: 0x7f08006e
+			public const int topPanel = 2131230830;
 			
-			// aapt resource value: 0x7f08008e
-			public const int touch_outside = 2131230862;
+			// aapt resource value: 0x7f08008f
+			public const int touch_outside = 2131230863;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -3627,11 +3909,11 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c8
-			public const int visible = 2131230920;
+			// aapt resource value: 0x7f0800c9
+			public const int visible = 2131230921;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int volume_item_container = 2131230890;
+			// aapt resource value: 0x7f0800ab
+			public const int volume_item_container = 2131230891;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;
@@ -3667,6 +3949,9 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0a0005
 			public const int cancel_button_image_alpha = 2131361797;
 			
+			// aapt resource value: 0x7f0a000e
+			public const int circular_indeterminent_interval = 2131361806;
+			
 			// aapt resource value: 0x7f0a0006
 			public const int config_tooltipAnimTime = 2131361798;
 			
@@ -3684,6 +3969,9 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 0x7f0a0002
 			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131361794;
+			
+			// aapt resource value: 0x7f0a000d
+			public const int progressbutton_indeterminent_interval = 2131361805;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int show_password_duration = 2131361803;
@@ -4160,8 +4448,8 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0b0178
 			public const int Animation_Design_BottomSheetDialog = 2131427704;
 			
-			// aapt resource value: 0x7f0b019b
-			public const int AppCompatDialogStyle = 2131427739;
+			// aapt resource value: 0x7f0b019f
+			public const int AppCompatDialogStyle = 2131427743;
 			
 			// aapt resource value: 0x7f0b00b1
 			public const int Base_AlertDialog_AppCompat = 2131427505;
@@ -4664,11 +4952,17 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int CardView_Light = 2131427342;
 			
-			// aapt resource value: 0x7f0b0199
-			public const int MyTheme = 2131427737;
+			// aapt resource value: 0x7f0b019b
+			public const int CircularProgressBar = 2131427739;
 			
-			// aapt resource value: 0x7f0b019a
-			public const int MyTheme_Base = 2131427738;
+			// aapt resource value: 0x7f0b019c
+			public const int CircularProgressBarLight = 2131427740;
+			
+			// aapt resource value: 0x7f0b019d
+			public const int MyTheme = 2131427741;
+			
+			// aapt resource value: 0x7f0b019e
+			public const int MyTheme_Base = 2131427742;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int Platform_AppCompat = 2131427373;
@@ -4711,6 +5005,12 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 0x7f0b0031
 			public const int Platform_Widget_AppCompat_Spinner = 2131427377;
+			
+			// aapt resource value: 0x7f0b0199
+			public const int ProgressButton = 2131427737;
+			
+			// aapt resource value: 0x7f0b019a
+			public const int ProgressButton_Pin = 2131427738;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131427386;
@@ -6591,6 +6891,40 @@ namespace PokeConf.App.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] HoloCircularProgressBar = new int[] {
+					2130772351,
+					2130772352,
+					2130772353,
+					2130772354,
+					2130772355,
+					2130772356,
+					2130772357,
+					2130772358};
+			
+			// aapt resource value: 0
+			public const int HoloCircularProgressBar_circular_gravity = 0;
+			
+			// aapt resource value: 6
+			public const int HoloCircularProgressBar_circular_indeterminate = 6;
+			
+			// aapt resource value: 7
+			public const int HoloCircularProgressBar_circular_indeterminate_interval = 7;
+			
+			// aapt resource value: 3
+			public const int HoloCircularProgressBar_circular_marker_progress = 3;
+			
+			// aapt resource value: 2
+			public const int HoloCircularProgressBar_circular_progress = 2;
+			
+			// aapt resource value: 5
+			public const int HoloCircularProgressBar_circular_progress_background_color = 5;
+			
+			// aapt resource value: 4
+			public const int HoloCircularProgressBar_circular_progress_color = 4;
+			
+			// aapt resource value: 1
+			public const int HoloCircularProgressBar_circular_stroke_width = 1;
+			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -6894,6 +7228,64 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressButton = new int[] {
+					16842970,
+					16842981,
+					16843534,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347,
+					2130772348,
+					2130772349,
+					2130772350};
+			
+			// aapt resource value: 1
+			public const int ProgressButton_android_clickable = 1;
+			
+			// aapt resource value: 0
+			public const int ProgressButton_android_focusable = 0;
+			
+			// aapt resource value: 2
+			public const int ProgressButton_android_selectableItemBackground = 2;
+			
+			// aapt resource value: 5
+			public const int ProgressButton_circleColor = 5;
+			
+			// aapt resource value: 12
+			public const int ProgressButton_indeterminate = 12;
+			
+			// aapt resource value: 13
+			public const int ProgressButton_indeterminate_interval = 13;
+			
+			// aapt resource value: 10
+			public const int ProgressButton_innerSize = 10;
+			
+			// aapt resource value: 4
+			public const int ProgressButton_max = 4;
+			
+			// aapt resource value: 11
+			public const int ProgressButton_pinned = 11;
+			
+			// aapt resource value: 7
+			public const int ProgressButton_pinnedDrawable = 7;
+			
+			// aapt resource value: 3
+			public const int ProgressButton_progress = 3;
+			
+			// aapt resource value: 6
+			public const int ProgressButton_progressColor = 6;
+			
+			// aapt resource value: 9
+			public const int ProgressButton_shadowDrawable = 9;
+			
+			// aapt resource value: 8
+			public const int ProgressButton_unpinnedDrawable = 8;
 			
 			public static int[] RecycleListView = new int[] {
 					2130772200,
@@ -7326,6 +7718,12 @@ namespace PokeConf.App.Droid
 			
 			// aapt resource value: 15
 			public const int TextInputLayout_passwordToggleTintMode = 15;
+			
+			public static int[] Theme = new int[] {
+					2130772359};
+			
+			// aapt resource value: 0
+			public const int Theme_circularProgressBarStyle = 0;
 			
 			public static int[] Toolbar = new int[] {
 					16842927,
