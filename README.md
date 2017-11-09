@@ -22,7 +22,7 @@ La aplicación con la que trabajaremos el taller será la siguiente, llamada Pok
 
 Mobile center es una plataforma creada por Microsoft que actualmente es gratis, la cual permite gestionar el desarrollo de nuestros aplicativos móviles android, ios y Windows bajo el esquema de DevOps, contando con compilación, pruebas, distribución y métricas.
 
-### Configuración
+### Configuración 
 1. Para comenzar es necesario disponer de una cuenta en [Github](https://www.github.com).
 ![recursos](images/0.png)
 1. Abre el repositorio donde se encuentra alojado el aplicativo prueba [Pokeconf](https://github.com/andreslon/PokeConf.Xamarin.git) y dale 
@@ -131,15 +131,41 @@ Nos abrirá el navegador indicando un código para pegar en la consola y autoriz
 ```
 mobile-center test run uitest --app "andreslon/PokeConf.App.Android" --devices "andreslon/dev1" --app-path /Users/d_p/Documents/GIT/PokeConf.Xamarin/builds/com.PokeConf.App.apk  --test-series "master" --locale "es_MX" --build-dir /Users/d_p/Documents/GIT/PokeConf.Xamarin/src/PokeConf/PokeConf.App/PokeConf.App.UITests/bin/debug
 ``` 
+La ejecución de las pruebas puede tardar según la cantidad de dispositivos seleccionados en la plataforma.
 ![recursos](images/33.png)
+
+Posteriormente puedes verificar que se hayan ejecutado correctamente los ui test.
+
+![recursos](images/35.png)
+
+![recursos](images/36.png)
+
+![recursos](images/37.png)
+
+![recursos](images/38.png) 
+
+![recursos](images/39.png) 
+
+## Distribución
+
+Para finalizar, tenemos la opción de **Distribute** en la plataforma, en la cual podemos configurar grupos de usuarios para entregar las versiones compiladas automáticamente la rama de producción o también distribuir manualmente una versión firmada con el key.
+
+![recursos](images/15.png)
+
+![recursos](images/15-1.png)
+
+![recursos](images/15-2.png)
+
+![recursos](images/15-3.png)
+
+![recursos](images/15-4.png)
+
 ## Contribución
  
 Andrés Londoño - Software architect and MVP Microsoft[@Andreslon](https://twitter.com/andreslon).
  
-# Comunidad Xamarin Medellin
+# Comunidad Xamarin Medellín
 
 <img src="images/XamarinMedellin.jpeg" style="height:80px;text-align:center" />
 
 [Únete a la comunidad](https://www.meetup.com/es-ES/Xamarin-Medellin/)
-
-
