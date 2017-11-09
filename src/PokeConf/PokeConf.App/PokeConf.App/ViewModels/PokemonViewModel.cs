@@ -5,10 +5,10 @@ namespace PokeConf.App
 {
     public class PokemonViewModel : BaseViewModel
     {
-        public Pokemon Item { get; set; }
-        public PokemonViewModel(Pokemon item = null)
+        public Pokemon Pokemon { get; set; }
+        public PokemonViewModel(Pokemon pokemon = null)
         {
-            Item = item;
+            Pokemon = pokemon;
         }
     }
 }
