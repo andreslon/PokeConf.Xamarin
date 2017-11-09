@@ -2,7 +2,9 @@
 using PokeConf.App.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PokeConf.App
 {
@@ -18,7 +20,8 @@ namespace PokeConf.App
                 BarTextColor = Color.White,
 
             }; 
-           
+            MobileCenter.Start("android=bca54d0e-9034-4c3b-9112-e4e6622b9b68;",
+                   typeof(Analytics), typeof(Crashes)); 
 
         }
     }

@@ -8,6 +8,18 @@ DevOps es una metodologia para la creación de software que se basa en un cambio
 
 Para este laboratorio se ha construido un aplicativo movil llamado PokeConf el cual seguira creciendo según necesidades del mercado, por lo que los desarrolladores deberan establecer un esquema de entrega continua agil mediante herramientas de DevOps, en nuestro caso, se utilizara la plataforma de mobile center, encargada de gestionar, probar y distribuir nuestro aplicativo movil realizado en Xamarin.
 
+La aplicación con la que trabajaremos el taller sera la siguiente, llamada PokeConf y disponible para iOS y Android.
+
+**Android**
+
+<img src="images/-1.png" style="height:400px;text-align:center" />
+<img src="images/-2.png" style="height:400px;text-align:center" />
+
+**iOS**
+
+<img src="images/-3.png" style="height:400px;text-align:center" />
+<img src="images/-4.png" style="height:400px;text-align:center" />
+
 # Mobile Center
 
 Mobile center es una plataforma creada por Microsoft que actualmente es gratis, la cual permite gestionar el desarrollo de nuestros aplicativos moviles android, ios y Windows bajo el esquema de DevOps, contando con compilación, pruebas, distribución y métricas.

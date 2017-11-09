@@ -89,6 +89,15 @@
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Azure.Mobile">
+      <HintPath>..\..\packages\Microsoft.Azure.Mobile.0.17.1\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics">
+      <HintPath>..\..\packages\Microsoft.Azure.Mobile.Analytics.0.17.1\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes">
+      <HintPath>..\..\packages\Microsoft.Azure.Mobile.Crashes.0.17.1\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
