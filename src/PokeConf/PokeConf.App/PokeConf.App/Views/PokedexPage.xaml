@@ -33,7 +33,7 @@
                             </ListView.ItemTemplate>
                         </ListView>
                         <Image WidthRequest="30" HeightRequest="30" Source="circle" HorizontalOptions="Start" Margin="30,0,0,10" VerticalOptions="End"></Image>
-                        <Button VerticalOptions="End" HorizontalOptions="End" HeightRequest="20" Text="share"  Margin="0,0,30,2" TextColor="{StaticResource WhiteColor}" BackgroundColor="{StaticResource ContentBackground}" Command="{Binding OpenWebCommand}" />
+                        <Button VerticalOptions="End" HorizontalOptions="End" HeightRequest="20" Text=""  Margin="0,0,30,2" TextColor="{StaticResource WhiteColor}" BackgroundColor="{StaticResource ContentBackground}" Command="{Binding OpenWebCommand}" />
                     </Grid>
                 </Frame> 
             </Grid>

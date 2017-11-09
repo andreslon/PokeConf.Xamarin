@@ -19,6 +19,7 @@ namespace PokeConf.App.Services
         {
             client = new HttpClient();
             client.MaxResponseContentBufferSize = 256000;
+            client.DefaultRequestHeaders.Add("ser-Agent", "cheese");
             items = new List<Pokemon>();
         }
         public async Task<Pokemon> GetPokemonAsync(string url)

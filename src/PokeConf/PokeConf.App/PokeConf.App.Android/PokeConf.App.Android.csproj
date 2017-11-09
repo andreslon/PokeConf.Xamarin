@@ -155,6 +155,12 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\background2.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\background2.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\background2.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PokeConf.App\PokeConf.App.csproj">

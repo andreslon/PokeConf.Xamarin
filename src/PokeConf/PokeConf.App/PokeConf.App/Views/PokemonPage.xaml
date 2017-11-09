@@ -2,22 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PokeConf.App.Views.PokemonPage" Title="{Binding Pokemon.name}">
     <ContentPage.Content>
         <StackLayout Spacing="0">
-            <Grid>
-                <Image Source="background.jpg" Aspect="Fill" />
-                <Frame Margin="35,140,35,50" Padding="0" CornerRadius="5" BackgroundColor="{StaticResource BorderBackground}">
-                    <Grid>
-                        <StackLayout Margin="5" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Start">
-                            <Image WidthRequest="18" HeightRequest="18" Source="circle">
-                            </Image>
-                            <Image WidthRequest="18" HeightRequest="18" Source="circle">
-                            </Image>
-                        </StackLayout>
-                        <Grid Margin="30,30,30,50" BackgroundColor="{StaticResource ContentBackground}">
-                            <Image Source="{Binding Pokemon.image}" Aspect="AspectFit" />
-                        </Grid>
-                        <Button VerticalOptions="End" HorizontalOptions="End" HeightRequest="20" Text="share" Margin="0,0,30,2" TextColor="{StaticResource WhiteColor}" BackgroundColor="{StaticResource ContentBackground}" Command="{Binding OpenWebCommand}" />
-                    </Grid>
-                </Frame>
+            <Grid BackgroundColor="{StaticResource Primary}">
+                <Image Source="background2.jpg" Aspect="Fill" />
+                <ScrollView>
+                    <StackLayout>
+                        <Frame Margin="35,35,35,15" Padding="0" HeightRequest="300" CornerRadius="5" BackgroundColor="{StaticResource BorderBackground}">
+                            <Grid>
+                                <StackLayout Margin="5" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Start">
+                                    <Image WidthRequest="18" HeightRequest="18" Source="circle">
+                                    </Image>
+                                    <Image WidthRequest="18" HeightRequest="18" Source="circle">
+                                    </Image>
+                                </StackLayout>
+                                <Grid Margin="30,30,30,50" BackgroundColor="{StaticResource ContentBackground}">
+                                    <Image Source="bg.jpg" Aspect="Fill" />
+                                    <ScrollView Margin="0,40,0,0" Orientation="Horizontal">
+                                        <StackLayout Orientation="Horizontal" >
+                                            <Image Source="{Binding Pokemon.sprites.front_default}" HeightRequest="15" WidthRequest="150" Aspect="AspectFit" />
+                                            <Image Source="{Binding Pokemon.sprites.back_default}" HeightRequest="15" WidthRequest="150" Aspect="AspectFit" />
+                                            <Image Source="{Binding Pokemon.sprites.front_shiny}" HeightRequest="15" WidthRequest="150" Aspect="AspectFit" />
+                                            <Image Source="{Binding Pokemon.sprites.back_shiny}" HeightRequest="15" WidthRequest="150" Aspect="AspectFit" />
+                                        </StackLayout>
+                                    </ScrollView>
+                                </Grid>
+                                <Image WidthRequest="30" HeightRequest="30" Source="circle" HorizontalOptions="Start" Margin="30,0,0,10" VerticalOptions="End" />
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="35,0,35,15" Padding="20" CornerRadius="5" BackgroundColor="{StaticResource ContentBackground}">
+                            <StackLayout>
+                                <Label Text="{Binding Pokemon.name}" HorizontalOptions="Center" TextColor="White" FontSize="18" FontAttributes="Bold" />
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

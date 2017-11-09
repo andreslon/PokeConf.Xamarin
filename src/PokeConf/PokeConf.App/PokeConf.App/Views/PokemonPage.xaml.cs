@@ -13,6 +13,7 @@ namespace PokeConf.App.Views
             InitializeComponent();
 
             BindingContext = this.viewModel = viewModel;
+
         }
     }
 }

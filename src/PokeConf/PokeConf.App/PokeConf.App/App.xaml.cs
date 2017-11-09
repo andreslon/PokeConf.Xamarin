@@ -12,7 +12,12 @@ namespace PokeConf.App
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PokedexPage()); 
+            MainPage = new NavigationPage(new PokedexPage())
+            {
+                BarBackgroundColor = Color.FromHex("#A61407"),
+                BarTextColor = Color.White,
+
+            }; 
            
 
         }

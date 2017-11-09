@@ -115,8 +115,7 @@ mobile-center test run uitest --app "andreslon/PokeConf.App.Android" --devices "
 
 ## Contribución
  
-Andrés Londoño - Software architect and MVP Microsoft [Aandreslon]  
-You can follow the [@Andreslon](https://github.com/angular/angular/blob/master/CHANGELOG.md).
+Andrés Londoño - Software architect and MVP Microsoft[@Andreslon](https://twitter.com/andreslon).
  
 # Comunidad Xamarin Medellin
 
