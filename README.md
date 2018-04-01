@@ -6,7 +6,7 @@ Este aplicativo fue realizado para el taller del NetConf Colombia 2017, construi
 
 DevOps es una metodología para la creación de software que se basa en un cambio cultural para su implementación, este cambio cultural va desde la colaboración, la comunicación y la total integración entre las áreas de desarrollo y sistemas (Infraestructura).
 
-Para este laboratorio se ha construido un aplicativo móvil llamado PokeConf el cual seguirá creciendo según necesidades del mercado, por lo que los desarrolladores deberán establecer un esquema de entrega continua ágil mediante herramientas de DevOps, en nuestro caso, se utilizara la plataforma de Mobile center, encargada de gestionar, probar y distribuir nuestro aplicativo móvil realizado en Xamarin.
+Para este laboratorio se ha construido un aplicativo móvil llamado PokeConf el cual seguirá creciendo según necesidades del mercado, por lo que los desarrolladores deberán establecer un esquema de entrega continua ágil mediante herramientas de DevOps, en nuestro caso, se utilizara la plataforma de App center, encargada de gestionar, probar y distribuir nuestro aplicativo móvil realizado en Xamarin.
 
 La aplicación con la que trabajaremos el taller será la siguiente, llamada PokeConf y disponible para iOS y Android.
 
@@ -18,9 +18,9 @@ La aplicación con la que trabajaremos el taller será la siguiente, llamada Pok
 >Pokedex
 
  
-# Mobile Center
+# App Center
 
-Mobile center es una plataforma creada por Microsoft que actualmente es gratis, la cual permite gestionar el desarrollo de nuestros aplicativos móviles android, ios y Windows bajo el esquema de DevOps, contando con compilación, pruebas, distribución y métricas.
+App center es una plataforma creada por Microsoft que actualmente es gratis, la cual permite gestionar el desarrollo de nuestros aplicativos móviles android, ios y Windows bajo el esquema de DevOps, contando con compilación, pruebas, distribución y métricas.
 
 ### Configuración 
 1. Para comenzar es necesario disponer de una cuenta en [Github](https://www.github.com).
@@ -30,7 +30,7 @@ Mobile center es una plataforma creada por Microsoft que actualmente es gratis, 
 ![recursos](images/0-1.png)
 1. Descarga el proyecto desde tu repositorio, abrelo y recompila para restaurar los paquetes, más adelante lo necesitaremos.
 ![recursos](images/0-2.png)
-1. Abre en el navegador la plataforma [Mobile Center](https://mobile.azure.com) e inicia sesión con la cuenta Github.
+1. Abre en el navegador la plataforma [App Center](https://appcenter.ms/apps) e inicia sesión con la cuenta Github.
 ![recursos](images/1.png)
 1. Al ingresar correctamente, podremos darle click al botón "Add new App" para crear nuestra aplicación.
 **Nota**: Se requiere crear una aplicación por cada plataforma (Android, iOS y Windows)
